@@ -10,7 +10,7 @@
         
         <Label 
             Text="Sistema de Login"
-            HorizontalOptions="Center" />
+            HorizontalOptions="Center"/>
         
         <Label Text="Usuário"/>
         <Entry x:Name="txt_usuario"/>
@@ -20,6 +20,7 @@
 
         <Button Text="Entrar"
                 HorizontalOptions="Center"
+                Clicked="Button_Clicked"
                 x:Name="LoginButton"/>
 
 
